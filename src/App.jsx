@@ -1,5 +1,4 @@
-import boyImage from './assets/model.png';
-import girlImg from './assets/girl.png';
+import boyImage from './assets/shoe.png';
 
 import starImage from './assets/logoz.png';
 import './App.css';
@@ -31,32 +30,26 @@ function App() {
 
       <div id="main-div">
         {/**/}
+
         <div className="half-section-1">
-          <p className='text'>YOUR STYLE</p>
-          <h4 style={{color:'white',marginLeft:'20px'}}>Explore vintage treasures and unique finds at our cheerful thrift shop in Ernakulam. Discover sustainable style with each visit and bring home a piece of history that sparks joy!</h4>
-          <button id='join' className="btn btn-light">Shop Now</button>
+          <h1 className='text'>URBEN EDGE</h1>
+          <h2 id='abot'>KIXY SHOES</h2>
+          <p style={{color:'pink',fontSize:'30px',marginLeft:'70px'}}>wherever you go i will be there..!</p>
+          
+          <button id='join' className="btn">Shop Now</button>
           
           
 
         </div>
-        <div className="half-section-4">
-
-      </div>
-
-        {/* Child Image */}
+        
+        {/* */}
         <div className="half-section-2">
           <img id='boy' src={boyImage} alt="" />
         </div>
-        {/* girl */}
-      <div className="half-section-3">
-        <img src="" alt="" />
-        <img id='girl' src={girlImg} alt="" />
-
-        
-      </div>
+       
       
         
-      </div>
+     </div>
       
     </>
   )
