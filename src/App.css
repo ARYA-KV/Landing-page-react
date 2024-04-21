@@ -25,7 +25,7 @@
   background-color: #FE5B18;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
 
 }
@@ -62,10 +62,17 @@
 
 }
 .half-section-2{
-  width: 40%;
+  width: 30%;
+  height: 90%;
+
+}
+.half-section-4{
+  width: 10%;
   height: 90%;
   background-image: url("./assets/Fashion.png");
   background-repeat: no-repeat;
+
+
 }
 .half-section-3{
   width: 15%;
@@ -73,8 +80,9 @@
   background-color: coral;
   margin-top: 390px;
   border-top-left-radius: 40%;
-  margin-left: 100px;
+  margin-left: 300px;
 }
+
 .text{
   font-family: "Lugrasimo", cursive;
   font-size:20px;
@@ -102,19 +110,20 @@
 #boy{
   height:100%;
   width: 100%;
-  transition: 0.2 linear box-shadow;
+  transition: 0.2 linear ;
   cursor: pointer;
   transform: rotate(0deg) translateY(-10px);
 
 }
 #girl{
-  height:300px;
+  height:290px;
   width: 100%;
 
 }
 #boy:hover{
-  box-shadow:0 35px 60px -15px rgb(0, 0,0.0.4);
+  box-shadow: none;
   animation: float infinite 1.5s linear;
+
 }
 @keyframes float{
   from{

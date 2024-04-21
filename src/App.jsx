@@ -30,7 +30,7 @@ function App() {
       </div>
 
       <div id="main-div">
-        {/* About Pre-school */}
+        {/**/}
         <div className="half-section-1">
           <p className='text'>YOUR STYLE</p>
           <h4 style={{color:'white',marginLeft:'20px'}}>Explore vintage treasures and unique finds at our cheerful thrift shop in Ernakulam. Discover sustainable style with each visit and bring home a piece of history that sparks joy!</h4>
@@ -39,6 +39,9 @@ function App() {
           
 
         </div>
+        <div className="half-section-4">
+
+      </div>
 
         {/* Child Image */}
         <div className="half-section-2">
@@ -51,6 +54,7 @@ function App() {
 
         
       </div>
+      
         
       </div>
       
